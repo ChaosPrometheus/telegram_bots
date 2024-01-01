@@ -5,7 +5,7 @@ from pyowm.utils.config import get_default_config
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
 
-owm = OWM('1b3e2db32841a5d8113646b4460b4e2e')
+owm = OWM('')
 def weather():
     try:
         mgr = owm.weather_manager()
