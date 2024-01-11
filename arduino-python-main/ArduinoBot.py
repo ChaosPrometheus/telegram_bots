@@ -4,7 +4,7 @@ from telebot import types
 ser = serial.Serial(port = "COM3")  
 ser.reset_input_buffer()
 
-bot = telebot.TeleBot("5244333565:AAF6uyXxLwBMzpX3aF-rGI9lysB-rIDtsDo")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
